@@ -45,6 +45,7 @@ public class WorldPanel extends JPanel {
         refreshAllTiles();
 
         // register update methods so the display changes when the model changes
+        //learnt syntax from youtube tutorial demonstrating creating a 2d game using java swing
         model.addChangeListener(this::repaint);
         model.addTileChangeListener(this::refreshTile);
     }
@@ -63,12 +64,14 @@ public class WorldPanel extends JPanel {
     private JPanel createTilePanel(int row, int col) {
         // this creates one visible square for one model tile
         JPanel tilePanel = new JPanel();
-        tilePanel.setPreferredSize(new Dimension(tileSize, tileSize));
+        tilePanel.setPreferredSize(new Dimension(tileSize, tileSize)); 
         tilePanel.setOpaque(true);
 
         // left click edits the tile, while right click opens the inspector
+        //general idea of code came from youtube tutorial demonstrating how to add mouselisteners
+        //to jpanels but applying it to open up external panels didn't come from youtube
         tilePanel.addMouseListener(new MouseAdapter() {
-            @Override
+            @Override 
             public void mousePressed(MouseEvent event) {
                 if (SwingUtilities.isRightMouseButton(event)) {
                     InspectorDialog.show(WorldPanel.this, model, row, col);
