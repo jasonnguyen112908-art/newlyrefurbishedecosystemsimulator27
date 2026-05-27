@@ -1,3 +1,4 @@
+//mainly Jason, I watched youtube tutorials on utilizing java swing to create visual tiles and awt to color tiles and implementing mouse listeners
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
@@ -9,7 +10,7 @@ import java.awt.event.MouseEvent;
 
 // this class displays the ecosystem as a colored swing grid
 public class WorldPanel extends JPanel {
-    // swing panels can be serialized, so this version id prevents a warning
+    // swing panels can be serialized, so this version id prevents a warning sidenote: not necessary, but tutorial recommended implementing this syntax to avoid warnings
     private static final long serialVersionUID = 1L;
 
     // these colors translate model data into visuals on the grid
