@@ -1,4 +1,4 @@
-//mainly Jason, I watched youtube tutorials on utilizing java swing to create visual tiles and awt to color tiles and implementing mouse listeners
+// mainly Jason, I watched youtube tutorials on utilizing java swing to create visual tiles and awt to color tiles and implementing mouse listeners
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
@@ -45,7 +45,7 @@ public class WorldPanel extends JPanel {
         refreshAllTiles();
 
         // register update methods so the display changes when the model changes
-        //learnt syntax from youtube tutorial demonstrating creating a 2d game using java swing
+        // learnt syntax from youtube tutorial demonstrating creating a 2d game using java swing
         model.addChangeListener(this::repaint);
         model.addTileChangeListener(this::refreshTile);
     }
@@ -68,7 +68,7 @@ public class WorldPanel extends JPanel {
         tilePanel.setOpaque(true);
 
         // left click edits the tile, while right click opens the inspector
-        //general idea of code came from youtube tutorial demonstrating how to add mouselisteners
+        // general idea of code came from youtube tutorial demonstrating how to add mouselisteners
         //to jpanels but applying it to open up external panels didn't come from youtube
         tilePanel.addMouseListener(new MouseAdapter() {
             @Override 
@@ -135,8 +135,8 @@ public class WorldPanel extends JPanel {
         }
 
         // if nothing living is on the tile, show the terrain color
-        //switch case recommended by Kedaar, Jason learned syntax for it from a youtube tutorial and implemented it to 
-        //change tile colors accordingly
+        // switch case recommended by Kedaar, Jason learned syntax for it from a youtube tutorial and implemented it to 
+        // change tile colors accordingly
         switch (tile.getTerrain()) {
             case GRASS:
                 return GRASS_COLOR;
