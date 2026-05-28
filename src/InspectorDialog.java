@@ -1,4 +1,6 @@
-// mainly created by Jason with help of Kedaar
+// mainly created by Jason with help of Kedaar and website
+// https://docs.oracle.com/javase/8/docs/api/javax/swing/JOptionPane.html
+// https://docs.oracle.com/javase/tutorial/uiswing/components/textarea.html
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
