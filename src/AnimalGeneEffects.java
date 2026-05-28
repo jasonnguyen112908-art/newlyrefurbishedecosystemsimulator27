@@ -1,3 +1,4 @@
+// mainly created by Kedaar
 // this class is part of the gene and biology system
 // it translates animal genes into actual simulation effects like health, speed, hunger, and reproduction
 public class AnimalGeneEffects {
