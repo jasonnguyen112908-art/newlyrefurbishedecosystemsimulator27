@@ -1,3 +1,4 @@
+// Kedaar and Jason
 // this class represents one square in the ecosystem grid
 public class Tile {
     // terrain is the base type of the tile, such as grass, water, or rock
