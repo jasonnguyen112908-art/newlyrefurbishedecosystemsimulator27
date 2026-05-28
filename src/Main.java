@@ -1,3 +1,4 @@
+// mainly created by Jason
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
@@ -14,6 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
         // this makes sure swing creates the window on the correct gui thread
+        // took syntax from Youtube tutorial demonstrating basic Javaswing functions
         SwingUtilities.invokeLater(Main::createWindow);
     }
 
