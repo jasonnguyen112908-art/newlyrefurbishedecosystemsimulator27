@@ -1,3 +1,4 @@
+// Kedaar and Jason
 // this class stores the actual 2d grid of tile objects
 public class WorldGrid {
     private final int rows;
