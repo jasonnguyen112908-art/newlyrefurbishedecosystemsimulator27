@@ -13,7 +13,7 @@ import java.awt.event.MouseEvent;
 
 // this class displays the ecosystem as a colored swing grid
 public class WorldPanel extends JPanel {
-    // swing panels can be serialized, so this version id prevents a warning sidenote: not necessary, but tutorial recommended implementing this syntax to avoid warnings
+    // swing panels can be serialized, so this version id prevents a warning sidenote: not necessary, but AI recommended implementing this syntax to get rid of warnings
     private static final long serialVersionUID = 1L;
 
     // these colors translate model data into visuals on the grid
