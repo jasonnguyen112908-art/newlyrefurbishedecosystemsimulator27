@@ -1,3 +1,4 @@
+// mainly created by Kedaar and Jason
 // this class stores global simulation information like time, seasons, and sun level
 public class SimulationState {
     // every 4 ticks equals one year in the simulation
