@@ -1,3 +1,6 @@
+// mainly created by Jason with help of youtube tutorials and website
+// https://www.geeksforgeeks.org/java/jlabel-java-swing/
+// https://www.youtube.com/watch?v=NWhkCZZumAE
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
