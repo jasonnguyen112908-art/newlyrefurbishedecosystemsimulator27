@@ -1,4 +1,4 @@
-// Kedaar's class
+// mainly made by Kedaar
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Random;
