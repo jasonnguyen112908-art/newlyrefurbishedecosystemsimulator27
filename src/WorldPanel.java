@@ -47,7 +47,7 @@ public class WorldPanel extends JPanel {
         refreshAllTiles();
 
         // register update methods so the display changes when the model changes
-        // learnt syntax from youtube tutorial demonstrating creating a 2d game using java swing
+        // learnt syntax from youtube tutorial demonstrating creating a 2d game using java swing (cited at top)
         model.addChangeListener(this::repaint);
         model.addTileChangeListener(this::refreshTile);
     }
