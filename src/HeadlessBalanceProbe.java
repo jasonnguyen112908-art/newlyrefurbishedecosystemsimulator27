@@ -1,4 +1,4 @@
-//created by AI to debug any balancing issues without needing to visualize
+// created by AI to debug any balancing issues without needing to visualize
 import java.util.List;
 
 public class HeadlessBalanceProbe {
