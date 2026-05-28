@@ -135,6 +135,8 @@ public class WorldPanel extends JPanel {
         }
 
         // if nothing living is on the tile, show the terrain color
+        //switch case recommended by Kedaar, Jason learned syntax for it from a youtube tutorial and implemented it to 
+        //change tile colors accordingly
         switch (tile.getTerrain()) {
             case GRASS:
                 return GRASS_COLOR;
