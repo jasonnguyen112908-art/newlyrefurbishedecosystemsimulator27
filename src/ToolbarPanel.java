@@ -1,3 +1,6 @@
+// mainly Jason with help of youtube tutorials and website tutorial
+// https://www.youtube.com/watch?v=NWhkCZZumAE
+// https://www.tutorialspoint.com/swing/swing_jbutton.htm
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JPanel;
@@ -6,6 +9,7 @@ import javax.swing.Timer;
 
 // this panel creates the buttons that control the simulation
 public class ToolbarPanel extends JPanel {
+    
     private static final long serialVersionUID = 1L;
 
     // this controls how fast the simulation runs when start is pressed
