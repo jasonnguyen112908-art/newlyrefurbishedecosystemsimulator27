@@ -1,3 +1,4 @@
+// mainly created by Kedaar
 // this enum lists all plant genes and keeps their values in a safe range
 public enum PlantGene {
     MAX_HEIGHT(4.0, 1.0, 8.0),
