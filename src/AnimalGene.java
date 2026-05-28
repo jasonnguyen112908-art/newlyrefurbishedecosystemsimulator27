@@ -1,3 +1,4 @@
+// mainly created by Kedaar
 // this enum lists all animal genes and keeps their values in a safe range
 public enum AnimalGene {
     SIZE("size", 1.0, 0.45, 2.60),
