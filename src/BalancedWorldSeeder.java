@@ -1,3 +1,4 @@
+// mainly created by Kedaar with the help of Jason
 import java.util.Random;
 
 // this class creates the starting ecosystem before the simulation begins
