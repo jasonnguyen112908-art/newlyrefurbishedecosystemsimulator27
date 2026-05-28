@@ -1,4 +1,4 @@
-// mainly Jason with help of youtube tutorials and website tutorial
+// mainly Jason with help of Kedaar and youtube tutorials and website tutorial
 // https://www.youtube.com/watch?v=NWhkCZZumAE
 // https://www.tutorialspoint.com/swing/swing_jbutton.htm
 import javax.swing.ButtonGroup;
@@ -49,6 +49,7 @@ public class ToolbarPanel extends JPanel {
 
         // step runs exactly one simulation tick
         JButton stepButton = new JButton("Step");
+        // syntaxes below that use e -> are implemented by Kedaar
         stepButton.addActionListener(e -> model.updateWorld());
 
         // start and pause control the swing timer
