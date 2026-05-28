@@ -1,3 +1,4 @@
+// mainly created by Kedaar
 import java.util.EnumMap;
 
 // this class creates starting plants with default genes
