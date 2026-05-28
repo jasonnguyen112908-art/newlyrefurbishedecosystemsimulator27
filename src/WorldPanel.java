@@ -68,8 +68,9 @@ public class WorldPanel extends JPanel {
         tilePanel.setOpaque(true);
 
         // left click edits the tile, while right click opens the inspector
-        // general idea of code came from youtube tutorial demonstrating how to add mouselisteners
-        //to jpanels but applying it to open up external panels didn't come from youtube
+        // general idea of code came from youtube tutorial and website tutorial demonstrating how to add mouselisteners/mouseadapter with java AWT
+        // https://www.youtube.com/watch?v=jptf1Wd_omw
+        // https://www.tutorialspoint.com/awt/awt_mouseadapter.htm
         tilePanel.addMouseListener(new MouseAdapter() {
             @Override 
             public void mousePressed(MouseEvent event) {
