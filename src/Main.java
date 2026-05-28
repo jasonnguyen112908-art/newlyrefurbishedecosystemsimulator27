@@ -15,7 +15,8 @@ public class Main {
 
     public static void main(String[] args) {
         // this makes sure swing creates the window on the correct gui thread
-        // took syntax from Youtube tutorial demonstrating basic Javaswing functions
+        // took syntax from website tutorial demonstrating basic Javaswing functions
+        // https://docs.oracle.com/javase/tutorial/uiswing/concurrency/initial.html
         SwingUtilities.invokeLater(Main::createWindow);
     }
 
